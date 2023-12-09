@@ -16,7 +16,7 @@ questions.forEach(question => {
     if (answer.style.height) {
       icon.style.backgroundImage = 'url(/FAQ-accordion/assets/images/icon-minus.svg)';
     } else {
-      icon.style.backgroundImage = 'url(../assets/images/icon-plus.svg)';
+      icon.style.backgroundImage = 'url(/FAQ-accordion/assets/images/icon-plus.svg)';
     }
   });
 });
