@@ -75,6 +75,10 @@ body {
   align-items: center;
 }
 
+.questions-container .question:hover {
+  cursor: pointer;
+}
+
 .questions-container .question p {
   width: 225px;
   font-size: 16px;
@@ -83,15 +87,23 @@ body {
   color: var(--title-text-color);
 }
 
+.questions-container .question p:hover {
+  color: var(--icon-background-color);
+}
+
 .questions-container .question .slice-icon {
   width: 30px;
   height: 30px;
   background-image: url(../assets/images/icon-plus.svg);
 }
 
-.questions-container .answer{
-  display: none;
-  font-size: 14px;
+.answer1, .answer2, .answer3, .answer4 {
+  display: block;
+  height: 0;
+  font-size: 16px;
   font-weight: 400;
+  line-height: 150%;
+  overflow: hidden;
+  transition: height 0.3s ease;
   color: var(--answer-text-color)
 }

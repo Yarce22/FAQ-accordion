@@ -2,6 +2,9 @@
 
 ![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)
 
+## Page
+https://yarcefm.github.io/FAQ-accordion/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
