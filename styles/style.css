@@ -33,6 +33,7 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
+  max-width: 600px;
   height: auto;
   padding: 24px;
   background-color: var(--background-card);
@@ -106,4 +107,27 @@ body {
   overflow: hidden;
   transition: height 0.3s ease;
   color: var(--answer-text-color)
+}
+
+@media screen and (min-width: 643px) {
+  body {
+    background-image: url('../assets/images/background-pattern-desktop.svg');
+  }
+  .main-container {
+    padding: 40px;
+  }
+
+  .title-container .img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .title-container h1 {
+    font-size: 56px;
+  }
+
+  .questions-container .question p {
+    width: auto;
+    font-size: 18px;
+  }
 }
